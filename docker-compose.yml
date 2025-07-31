@@ -1,17 +1,29 @@
-version: '3.8'
 services:
-  rag-product-query:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"  # Expose Ollama on the default port 
+    environment:
+      - OLLAMA_MODEL=llama3.1
+    volumes:
+      - /d/Ollama/models:/root/.ollama/models  # Ensure Ollama can access the models directory
+
+  rag-app:
     build:
       context: .
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
+    depends_on:
+      - ollama
+    environment:
+      - TOP_K=3
+      - PROMPT_PATH=/app/prompt.txt
+      - OLLAMA_URL=http://ollama:11434
     volumes:
       - ./data:/app/data
       - ./prompt.txt:/app/prompt.txt
-      - ./requirements.txt:/app/requirements.txt
-      - ./agents.py:/app/agents.py
-      - ./main.py:/app/main.py
-      - ./.env:/app/.env
-    command: uvicorn main:app --reload
+      - ./code_files:/app/
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
     restart: unless-stopped
