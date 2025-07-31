@@ -1,8 +1,7 @@
 Product: Pandemic
 Description: Cooperative strategy game where players act as disease‑fighting specialists working together to treat outbreaks and discover cures for four deadly diseases before time runs out. Players either all win or all lose together.
 Ages: 8+ years
-Players: 2–4 players
+Players: 2 to 4 players
 Contents: World map game board, role cards, pawns, disease cubes, infection cards, player cards, research station pieces, reference cards, rulebook 
 Price: $49.99
-In store: Yes
-In stockroom: Yes
+Available: Yes

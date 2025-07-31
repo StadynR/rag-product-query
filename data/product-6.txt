@@ -1,8 +1,7 @@
 Product: Ticket to Ride
 Description: Popular strategy board game in which players collect train cards to claim railway routes between cities and complete secret destination tickets for points. Easy to learn with deep strategic play.
 Ages: 8+ years
-Players: 2–5 players
+Players: 2 to 5 players
 Contents: Game board (North America map), 225 plastic trains, 110 train cards, 33 destination tickets, longest‑route bonus card, scoring markers, rule booklet 
 Price: $44.99 
-In store: Yes
-In stockroom: No
+Available: Yes

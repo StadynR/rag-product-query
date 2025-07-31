@@ -1,8 +1,7 @@
 Product: Clue
 Description: Classic mystery game where players must deduce who committed a murder, in which room, and with what weapon. Involves moving through a mansion, analyzing clues, and logically eliminating hypotheses.
 Ages: 8+ years
-Players: 3–6 players
+Players: 3 to 6 players
 Contents: Mansion board, suspect tokens, room, weapon and character cards, detective notepad, dice
 Price: $22.00
-In store: No
-In stockroom: Yes
+Available: No

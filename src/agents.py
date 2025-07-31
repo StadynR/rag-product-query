@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 from langchain_community.vectorstores import Chroma
-from langchain_community.document_loaders import TextLoader
-from langchain.text_splitter import CharacterTextSplitter
+from langchain_core.documents import Document
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_ollama import ChatOllama, OllamaEmbeddings
@@ -23,12 +22,13 @@ class RetrieverAgent:
         data_folder = DATA_FOLDER
         for fname in os.listdir(data_folder):
             if fname.endswith(".txt"):
-                loader = TextLoader(os.path.join(data_folder, fname))
-                docs.extend(loader.load())
-
-        # Split into chunks
-        splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=50)
-        docs = splitter.split_documents(docs)
+                with open(os.path.join(data_folder, fname), 'r', encoding="utf-8") as f:
+                    content = f.read()
+                    # Split on 'Product:' and filter out empty entries
+                    product_entries = [entry.strip() for entry in content.split('Product:') if entry.strip()]
+                    for entry in product_entries:
+                        # Add 'Product:' back to the entry for context with Document format
+                        docs.append(Document(page_content="Product:" + entry))
 
         # Embed
         print(f"Connecting to Ollama at: {OLLAMA_URL}")

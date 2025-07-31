@@ -1,8 +1,7 @@
 Product: Risk
 Description: Strategy and global conquest game. Players deploy armies, launch invasions, and try to dominate territories. Requires tactical planning and diplomacy.
 Ages: 10+ years
-Players: 2–5 players
+Players: 2 to 5 players
 Contents: World map board, army tokens, dice, territory cards
 Price: $29.90
-In store: No
-In stockroom: Yes
+Available: No

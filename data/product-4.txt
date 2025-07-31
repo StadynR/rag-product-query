@@ -1,8 +1,7 @@
 Product: Catan
 Description: Trade and building game set on a resource-rich island. Players collect brick, wood, sheep, wheat, and ore to build settlements, cities, and roads. Involves negotiation, planning, and resource management.
 Ages: 10+ years
-Players: 3–4 players
+Players: 3 to 4 players
 Contents: Modular hex tile board, resource cards, building pieces, point markers
 Price: $34.75
-In store: Yes
-In stockroom: Yes
+Available: Yes

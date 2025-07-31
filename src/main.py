@@ -38,7 +38,7 @@ def handle_query(request: QueryRequest):
     prompt = ""
     if PROMPT_FILE:
         try:
-            with open(PROMPT_FILE, 'r', encoding='utf-8') as file:
+            with open(PROMPT_FILE, 'r', encoding="utf-8") as file:
                 prompt = file.read()
         except FileNotFoundError:
             raise HTTPException(status_code=500, detail=f"Prompt file '{PROMPT_FILE}' not found.")
