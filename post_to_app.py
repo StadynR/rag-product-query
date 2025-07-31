@@ -14,7 +14,11 @@ payload = {
 
 response = requests.post(url, json=payload)
 if response.ok:
-    print("App's response:")
-    print(response.json())
+    print("OK response:")
+    json_response = response.json()
+    print(f"User ID: {json_response['user_id']}")
+    print(f"Answer: {json_response['answer']}")
+    print("------------------Documents used:-----------------------")
+    print("\n--------------\n".join(json_response['docs_used']))
 else:
     print(f"Error {response.status_code}: {response.text}")
