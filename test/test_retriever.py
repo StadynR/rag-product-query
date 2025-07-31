@@ -6,7 +6,7 @@ def retriever():
     return RetrieverAgent()
 
 def test_retrieve_returns_results(retriever):
-    query = "¿Qué productos son rojos?"
+    query = "What products are red?"
     results = retriever.retrieve(query, top_k=2)
     
     assert isinstance(results, list)

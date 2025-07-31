@@ -9,7 +9,7 @@ client = TestClient(app)
 def example_query():
     return {
         "user_id": "test_user",
-        "query": "¿Qué producto es el más barato?"
+        "query": "What's your cheapest product?"
     }
 
 def test_query_endpoint_success(example_query):
