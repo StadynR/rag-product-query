@@ -1,8 +1,8 @@
-Producto: Risk
-Descripción: Juego de estrategia y conquista global. Los jugadores despliegan ejércitos, lanzan invasiones y tratan de dominar territorios. Requiere planificación táctica y manejo de diplomacia. 
-Edades: 10+ años 
-Jugadores: 2–5 jugadores
-Contenido: Tablero mundial, fichas de ejército, dados, cartas de territorio
-Precio: $29.90
-En tienda: No
-En bodega: Sí
+Product: Risk
+Description: Strategy and global conquest game. Players deploy armies, launch invasions, and try to dominate territories. Requires tactical planning and diplomacy.
+Ages: 10+ years
+Players: 2–5 players
+Contents: World map board, army tokens, dice, territory cards
+Price: $29.90
+In store: No
+In stockroom: Yes

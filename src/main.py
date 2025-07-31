@@ -2,12 +2,12 @@ import os
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from agents import RetrieverAgent, ResponderAgent
+from src.agents import RetrieverAgent, ResponderAgent
 
 load_dotenv()
 
 TOP_K = os.getenv('TOP_K')
-PROMPT_PATH = os.getenv('PROMPT_PATH')
+PROMPT_FILE = os.getenv('PROMPT_FILE')
 
 retriever = RetrieverAgent()
 
@@ -36,12 +36,12 @@ def handle_query(request: QueryRequest):
     
     # Extract prompt from txt file as string
     prompt = ""
-    if PROMPT_PATH:
+    if PROMPT_FILE:
         try:
-            with open(PROMPT_PATH, 'r', encoding='utf-8') as file:
+            with open(PROMPT_FILE, 'r', encoding='utf-8') as file:
                 prompt = file.read()
         except FileNotFoundError:
-            raise HTTPException(status_code=500, detail=f"Prompt file '{PROMPT_PATH}' not found.")
+            raise HTTPException(status_code=500, detail=f"Prompt file '{PROMPT_FILE}' not found.")
     
     # Agent pipeline
     docs = retriever.retrieve(request.query, top_k)

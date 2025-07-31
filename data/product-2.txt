@@ -1,8 +1,8 @@
-Producto: Monopoly
-Descripción: Clásico juego de comercio y construcción de propiedades, donde los jugadores compran, negocian casas y hoteles, cobran rentas y tratan de arruinar a sus oponentes. Ideal para partidas largas y competitivas. 
-Edades: 8+ años
-Jugadores: 2–6 jugadores
-Contenido: Tablero, peones, tarjetas de propiedad, casas y hoteles, dinero de juego, dados
-Precio: $24.50
-En tienda: Sí
-En bodega: Sí
+Product: Monopoly
+Description: Classic game of trade and property building, where players buy, trade houses and hotels, collect rent, and try to bankrupt their opponents. Ideal for long and competitive games.
+Ages: 8+ years
+Players: 2–6 players
+Contents: Board, tokens, property cards, houses and hotels, play money, dice
+Price: $24.50
+In store: Yes
+In stockroom: Yes

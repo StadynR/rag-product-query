@@ -1,8 +1,8 @@
-Producto: Cluedo
-Descripción: Juego de misterio clásico en el que los jugadores deben deducir quién cometió un asesinato, en qué sala y con qué arma. Implica movimiento por mansión, análisis de pistas y eliminación lógica de hipótesis. 
-Edades: 8+ años 
-Jugadores: 3–6 jugadores
-Contenido: Tablero de mansión, peones de sospechosos, cartas de habitaciones, armas y personajes, bloc de notas de detective, dados
-Precio: $22.00
-En tienda: No
-En bodega: Sí
+Product: Clue
+Description: Classic mystery game where players must deduce who committed a murder, in which room, and with what weapon. Involves moving through a mansion, analyzing clues, and logically eliminating hypotheses.
+Ages: 8+ years
+Players: 3–6 players
+Contents: Mansion board, suspect tokens, room, weapon and character cards, detective notepad, dice
+Price: $22.00
+In store: No
+In stockroom: Yes

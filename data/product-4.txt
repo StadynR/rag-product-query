@@ -1,8 +1,8 @@
-Producto: Catan
-Descripción: Juego de comercio y construcción en una isla llena de recursos. Los jugadores recogen ladrillos, madera, ovejas, trigo y mineral para fundar pueblos, ciudades y rutas. Involucra negociación, planificación y gestión de recursos. 
-Edades: 10+ años 
-Jugadores: 3–4 jugadores
-Contenido: Tablero modular de hexágonos, cartas de recursos, piezas de construcción, marcadores de puntos
-Precio: $34.75
-En tienda: Sí
-En bodega: Sí
+Product: Catan
+Description: Trade and building game set on a resource-rich island. Players collect brick, wood, sheep, wheat, and ore to build settlements, cities, and roads. Involves negotiation, planning, and resource management.
+Ages: 10+ years
+Players: 3–4 players
+Contents: Modular hex tile board, resource cards, building pieces, point markers
+Price: $34.75
+In store: Yes
+In stockroom: Yes

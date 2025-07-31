@@ -1,8 +1,8 @@
-Producto: UNO
-Descripción: Juego de cartas colorido y adictivo en el que los jugadores deben deshacerse de sus cartas coincidiendo por color o número. Incluye cartas especiales (Skip, Reverse, Draw Two, Wild, Wild Draw Four). Perfecto para partidas rápidas y diversión familiar.
-Edades: 7+ años 
-Jugadores: 2 a 10 jugadores
-Contenido: 108 cartas + instrucciones
-Precio: $8.99
-En tienda: Sí
-En bodega: No
+Product: UNO
+Description: A colorful and addictive card game where players must get rid of their cards by matching them by color or number. Includes special cards (Skip, Reverse, Draw Two, Wild, Wild Draw Four). Perfect for quick games and family fun.
+Ages: 7+ years
+Players: 2 to 10 players
+Contents: 108 cards + instructions
+Price: $8.99
+In Store: Yes
+In Stockroom: No
