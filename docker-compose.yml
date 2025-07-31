@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  rag-product-query:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./prompt.txt:/app/prompt.txt
+      - ./requirements.txt:/app/requirements.txt
+      - ./agents.py:/app/agents.py
+      - ./main.py:/app/main.py
+      - ./.env:/app/.env
+    command: uvicorn main:app --reload
+    restart: unless-stopped
