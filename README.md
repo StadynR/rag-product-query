@@ -54,6 +54,22 @@ This will start:
 
 ## Running Locally (without Docker)
 
+### Ollama Requirements (Local, Non-Docker)
+
+If you want to run the RAG app locally without Docker, you must have [Ollama](https://ollama.com/) installed and running on your machine, along with a compatible model (e.g., llama3.1).
+
+- [Download](https://ollama.com/download) and install Ollama:
+- Pull a model (example):
+  ```bash
+  ollama pull llama3.1
+  ```
+- Start the Ollama server (if not already running):
+  ```bash
+  ollama serve
+  ```
+
+Make sure the `OLLAMA_URL` in your `.env` is set to `http://localhost:11434` (the default for local Ollama).
+
 1. Create and activate a Python virtual environment:
 
 **Windows:**
