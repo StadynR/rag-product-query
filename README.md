@@ -10,6 +10,9 @@ This repository provides a Retrieval-Augmented Generation (RAG) bot for answerin
 - Includes a script for sending queries to the API.
 
 ## Setup Instructions
+## Data Folder
+
+The `data/` folder contains mock product `.txt` files for testing and demonstration purposes. If you want to use the bot with your own products, replace or add `.txt` files in the `data/` directory. Each file should contain relevant product information in plain text.
 
 ### 1. Clone the Repository
 
